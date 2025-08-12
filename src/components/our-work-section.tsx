@@ -90,8 +90,8 @@ export default function OurWorkSection() {
             Get inspired by our work
           </h2>
           <p className="text-sm md:text-base lg:text-lg text-gray-600 max-w-xl lg:max-w-2xl mx-auto leading-relaxed">
-            See how we've transformed homes with our expert craftsmanship and
-            attention to detail.
+            See how we&apos;ve transformed homes with our expert craftsmanship
+            and attention to detail.
           </p>
         </div>
 

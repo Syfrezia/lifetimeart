@@ -122,9 +122,9 @@ export default function HeroSection() {
 
                 {/* Testimonial text */}
                 <p className="text-white text-sm leading-relaxed">
-                  "LifetimeArt has been a game-changer for my home. Their
+                  &ldquo;LifetimeArt has been a game-changer for my home. Their
                   ability to blend functionality with exquisite design is
-                  unparalleled."
+                  unparalleled.&rdquo;
                 </p>
               </div>
             </div>

@@ -100,7 +100,7 @@ export default function Card({
                       isDark ? "text-gray-600" : "text-gray-400"
                     }`}
                   >
-                    "
+                    &ldquo;
                   </span>
                   {testimonial}
                   <span
@@ -108,7 +108,7 @@ export default function Card({
                       isDark ? "text-gray-600" : "text-gray-400"
                     }`}
                   >
-                    "
+                    &rdquo;
                   </span>
                 </blockquote>
 
@@ -206,7 +206,7 @@ export default function Card({
                   isDark ? "text-gray-600" : "text-gray-400"
                 }`}
               >
-                "
+                &ldquo;
               </span>
               {testimonial}
               <span
@@ -214,7 +214,7 @@ export default function Card({
                   isDark ? "text-gray-600" : "text-gray-400"
                 }`}
               >
-                "
+                &rdquo;
               </span>
             </blockquote>
 

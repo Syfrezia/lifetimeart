@@ -7,6 +7,7 @@ import star from "@public/star.svg";
 import diningImage from "@public/assets/dining.jpg";
 import diningCropped from "@public/assets/dining-cropped.jpg";
 import { ArrowUpRightIcon } from "lucide-react";
+import { Button } from "./common/button";
 
 export default function HeroSection() {
   return (
@@ -22,6 +23,7 @@ export default function HeroSection() {
             alt="Lifetime Art Logo"
             width={32}
             height={32}
+            priority
             className="w-auto h-8"
           />
           <p className="text-white text-2xl font-medium">LifetimeArt</p>
@@ -45,6 +47,7 @@ export default function HeroSection() {
               alt="Hero Section Background Image"
               width={1240}
               height={695}
+              priority
               className="w-full h-auto object-cover"
             />
 
@@ -88,10 +91,7 @@ export default function HeroSection() {
               </div>
 
               {/* CTA Button */}
-              <button className="bg-white text-black px-6 py-3 rounded-full flex items-center gap-2 hover:bg-gray-100 transition-colors w-fit">
-                <span className="font-medium">Work with us</span>
-                <ArrowUpRightIcon className="size-5" />
-              </button>
+              <Button>Work with us</Button>
             </div>
 
             {/* Right side - Image with testimonial overlay */}

@@ -7,15 +7,14 @@ import about2 from "@public/assets/about-us-2.jpg";
 import about3 from "@public/assets/about-us-3.jpg";
 import about4 from "@public/assets/about-us-4.jpg";
 import about5 from "@public/assets/about-us-5.png";
+import { SectionPill } from "./common/section-pill";
 
 export default function AboutUsSection() {
   return (
     <section id="about" className="py-16 lg:py-24 xl:py-32">
       <div className="xl:max-w-[1440px] min-h-[290px] mx-auto xl:px-20 px-5 sm:px-10 md:grid md:grid-cols-2 flex flex-col gap-20">
         <div className="xl:max-w-[600px] flex flex-col gap-1.5">
-          <span className="w-fit bg-[#28282C] rounded-full py-2 px-3 text-white text-[1rem] font-semibold leading-3.5">
-            About us
-          </span>
+          <SectionPill>About us</SectionPill>
           <h2 className="text-[3rem] text-[#101014] leading-[55px] tracking-[-0.8px]">
             Home
             <br />

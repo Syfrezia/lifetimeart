@@ -6,7 +6,6 @@ import logo from "@public/lifetime-logo.svg";
 import star from "@public/star.svg";
 import diningImage from "@public/assets/dining.jpg";
 import diningCropped from "@public/assets/dining-cropped.jpg";
-import { ArrowUpRightIcon } from "lucide-react";
 import { Button } from "./common/button";
 
 export default function HeroSection() {

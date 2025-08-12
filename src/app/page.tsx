@@ -1,12 +1,11 @@
+"use client";
+
+import HeroSection from "@/components/hero-section";
+
 export default function Home() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section id="hero" className="min-h-screen bg-background">
-        <div className="container mx-auto px-4 xs:px-6 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20">
-          <div>lorem ipsum</div>
-        </div>
-      </section>
+      <HeroSection />
 
       {/* About Us Section */}
       <section id="about" className="py-16 lg:py-24 xl:py-32">

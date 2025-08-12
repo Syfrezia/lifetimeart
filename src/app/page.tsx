@@ -2,6 +2,7 @@
 
 import AboutUsSection from "@/components/about-us-section";
 import HeroSection from "@/components/hero-section";
+import ServicesSection from "@/components/services-section";
 
 export default function Home() {
   return (
@@ -12,11 +13,7 @@ export default function Home() {
       <AboutUsSection />
 
       {/* Services Section */}
-      <section id="services" className="py-16 lg:py-24 xl:py-32">
-        <div className="container mx-auto px-4 xs:px-6 lg:px-8 xl:px-12 2xl:px-16 3xl:px-20">
-          <div>lorem ipsum</div>
-        </div>
-      </section>
+      <ServicesSection />
 
       {/* Our Work Section */}
       <section id="work" className="py-16 lg:py-24 xl:py-32">
